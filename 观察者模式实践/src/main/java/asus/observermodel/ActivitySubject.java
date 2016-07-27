@@ -12,7 +12,7 @@ public abstract class ActivitySubject extends AppCompatActivity{
     public abstract void update();
 
 
-    public MessageUtil getMsg(){
+    public MessageUtil msg(){
         return new MessageUtil();
     }
 

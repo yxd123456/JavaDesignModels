@@ -13,17 +13,17 @@ public class MessageUtil {
         message = Message.obtain();
     }
 
-    public <T> MessageUtil setObject(T t){
+    public <T> MessageUtil obj(T t){
         message.obj = t;
         return this;
     }
 
-    public MessageUtil setWhat(int what){
+    public MessageUtil what(int what){
         message.what = what;
         return this;
     }
 
-    public Message getMessage(){
+    public Message end(){
         return message;
     }
 

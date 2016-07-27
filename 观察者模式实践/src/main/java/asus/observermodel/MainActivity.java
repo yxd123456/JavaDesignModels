@@ -17,13 +17,12 @@ public class MainActivity extends ActivitySubject {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         subject = this;
-        observer.attachActivity(this);
+        observer.attachActivity(subject);
         tv = (TextView) findViewById(R.id.tv);
     }
 
     public void send(View v){
-        observer.notifyActivity(getMsg()
-                .setObject("Hello 收到了观察者的消息！").getMessage(), MainActivity.this);
+        observer.notifyActivity(msg().obj("Hello 收到了观察者的消息！").end(), MainActivity.this);
     }
 
     public void go(View v){
