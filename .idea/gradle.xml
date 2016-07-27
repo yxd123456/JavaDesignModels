@@ -14,6 +14,8 @@
             <option value="$PROJECT_DIR$/建造者模式" />
             <option value="$PROJECT_DIR$/桥接模式" />
             <option value="$PROJECT_DIR$/装饰器模式" />
+            <option value="$PROJECT_DIR$/观察者模式" />
+            <option value="$PROJECT_DIR$/观察者模式实践" />
             <option value="$PROJECT_DIR$/适配器模式" />
           </set>
         </option>
@@ -26,6 +28,8 @@
             <option value="$PROJECT_DIR$/建造者模式" />
             <option value="$PROJECT_DIR$/桥接模式" />
             <option value="$PROJECT_DIR$/装饰器模式" />
+            <option value="$PROJECT_DIR$/观察者模式" />
+            <option value="$PROJECT_DIR$/观察者模式实践" />
             <option value="$PROJECT_DIR$/适配器模式" />
           </set>
         </option>

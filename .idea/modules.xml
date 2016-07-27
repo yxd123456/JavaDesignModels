@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/建造者模式/建造者模式.iml" filepath="$PROJECT_DIR$/建造者模式/建造者模式.iml" />
       <module fileurl="file://$PROJECT_DIR$/桥接模式/app.iml" filepath="$PROJECT_DIR$/桥接模式/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/装饰器模式/装饰器模式.iml" filepath="$PROJECT_DIR$/装饰器模式/装饰器模式.iml" />
+      <module fileurl="file://$PROJECT_DIR$/观察者模式/观察者模式.iml" filepath="$PROJECT_DIR$/观察者模式/观察者模式.iml" />
+      <module fileurl="file://$PROJECT_DIR$/观察者模式实践/观察者模式实践.iml" filepath="$PROJECT_DIR$/观察者模式实践/观察者模式实践.iml" />
       <module fileurl="file://$PROJECT_DIR$/适配器模式/adaptermodel.iml" filepath="$PROJECT_DIR$/适配器模式/adaptermodel.iml" />
     </modules>
   </component>

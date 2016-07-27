@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
+import asus.decoratormodel.tool.DecoratePlayer1;
 import asus.decoratormodel.tool.DecoratePlayer2;
 import asus.decoratormodel.tool.Play;
 /*
@@ -26,13 +27,13 @@ public class MainActivity extends AppCompatActivity {
         Log.d("Test", "=================================");
 
         //使用装饰器一来对White进行装饰
-        Play white2 = new DecoratePlayer2(new White());
+        Play white2 = new DecoratePlayer1(white1);
         white2.playLOL();
 
         Log.d("Test", "=================================");
 
         //使用装饰器二来对White进行装饰
-        Play white3 = new DecoratePlayer2(new White());
+        Play white3 = new DecoratePlayer2(white1);
         white3.playLOL();
 
 
